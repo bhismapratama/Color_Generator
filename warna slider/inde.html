@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *, html, body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        section {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            row-gap: 2rem;
+        }
+        input {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Let's playing color with rgb slider</h1>
+        <h1>red</h1>
+        <input type="range" name="merah" class="slider" min="0" max="255">
+        <h1>green</h1>
+        <input type="range" name="hijau" class="slider" min="0" max="255">
+        <h1>blue</h1>
+        <input type="range" name="biru" class="slider" min="0" max="255">
+    </section>
+
+    <script src="index.js" ></script>
+</body>
+</html>

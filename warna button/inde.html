@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warna Button</title>
+
+    <style>
+        *, html, body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        section {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .main {
+            text-align: center;
+        }
+
+        .button {
+            padding: 1rem 10%;
+            margin-top: 20px;
+            border-radius: 1.5rem;
+            cursor: pointer;
+            border: none;
+            background-color: #252525;
+            color: #f5f5f5;
+        }
+
+        .click {
+            background-color: #f5f5f5;
+            color: #252525;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="main">
+            <h1>Let's playing color with button</h1>
+            <button id="btn" class="button">Click for change color</button>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>

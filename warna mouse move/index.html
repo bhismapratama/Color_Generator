@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color - mousemove</title>
+    
+    <style>
+        *, body, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 25px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .wrap {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .warna {
+            width: 80%;
+            height: 60%;
+            border: 1px solid #252525;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap" id="wrap">
+        <h1>Let's playing color with mousemove</h1>
+        <div class="warna"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
